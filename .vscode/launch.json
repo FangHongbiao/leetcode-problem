@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Solution1",
+            "request": "launch",
+            "mainClass": "com.leetcode.verifying_an_alien_dictionary.Solution1",
+            "projectName": "LeetCodeProblem_9c46512a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Solution2",
             "request": "launch",
             "mainClass": "com.leetcode.course_schedule.Solution2"
