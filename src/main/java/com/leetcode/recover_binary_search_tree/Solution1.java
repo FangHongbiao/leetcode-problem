@@ -16,11 +16,20 @@ import com.ciaoshen.leetcode.util.*;
  */
 // key insight: tree structure uncharted
 class Solution1 implements Solution {
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
     public void recoverTree(TreeNode root) {
         List<Integer> traverseList = new ArrayList<>();
         traverseTreeInOrder(root, traverseList);
 
-        Collections.sort(list);
+        Collections.sort(traverseList);
     }
     
     private void traverseTreeInOrderForReset(TreeNode treeNode, List<Integer> list) {

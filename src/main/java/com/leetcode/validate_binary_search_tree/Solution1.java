@@ -41,5 +41,6 @@ class Solution1 implements Solution {
 
     public static void main(String[] args) {
         System.out.println("ste");
+    }
 
 }

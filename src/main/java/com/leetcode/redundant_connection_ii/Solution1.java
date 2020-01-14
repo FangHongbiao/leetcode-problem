@@ -3,6 +3,9 @@
  */
 package com.leetcode.redundant_connection_ii;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -180,7 +183,7 @@ public class MainClass {
         while ((line = in.readLine()) != null) {
             int[][] edges = stringToInt2dArray(line);
             
-            int[] ret = new Solution().findRedundantDirectedConnection(edges);
+            int[] ret = new Solution1().findRedundantDirectedConnection(edges);
             
             String out = integerArrayToString(ret);
             
