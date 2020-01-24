@@ -107,7 +107,7 @@ func fillDP(word string, dp [][][]int) [][][]int {
 	return dp
 }
 
-func main() {
-	d := minimumDistance2("NEW")
-	fmt.Println(d)
-}
+//func main() {
+//	d := minimumDistance2("NEW")
+//	fmt.Println(d)
+//}
